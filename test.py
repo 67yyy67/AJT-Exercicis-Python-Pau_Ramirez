@@ -1,7 +1,6 @@
-paraula = input("introdueix una paraula")
-i = 0
-for a in paraula:
-    if a == ("a" or "e") or ("i" or ("o" or "u")):
-        i = i+1
-
-print(f"en {paraula} hi han {i} vocals")
+productes = ((" Poma ", 3.5) , (" Platan ", 2.8) , (" Taronja ", 4.1) )
+preu = []
+for a in range(len(productes)):
+    preu[a] = productes[a[1]]
+    
+print(preu)
